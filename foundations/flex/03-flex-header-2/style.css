@@ -32,7 +32,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
-  flex: auto;
+  
 }
 
 .left-el {
@@ -45,6 +45,7 @@ body {
 .right-el {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 button {
@@ -52,7 +53,8 @@ button {
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
-  padding: 8px 24px;
+  padding: 8px 25px;
+  margin: 0px 15px;
 }
 
 a {
@@ -65,4 +67,11 @@ ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  margin: 10px;
+  padding: 0 0 0 15px;
+}
+
+li {
+  padding: 5px;
 }
